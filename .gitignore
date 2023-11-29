@@ -1,0 +1,7 @@
+#ignore everything 
+*
+
+!.gitignore
+!/csv_yahoo
+!*.py
+!*.ps1
