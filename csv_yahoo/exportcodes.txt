@@ -1,0 +1,7 @@
+.open SP500O.db
+.headers on
+.mode csv
+.output Export/optioncodes.csv
+SELECT * from option;
+.exit
+

@@ -1,0 +1,7 @@
+.open SP500.db
+.headers on
+.mode csv
+.output Export/stockprices.csv
+SELECT ticker,date,open,close,adjclose,high,low,volume
+from price;
+.exit

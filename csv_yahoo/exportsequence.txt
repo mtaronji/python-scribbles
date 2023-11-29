@@ -1,0 +1,6 @@
+.open SP500O.db
+.headers on
+.mode csv
+.output Export/optionsequences.csv
+SELECT * from SequenceComplete;
+.exit

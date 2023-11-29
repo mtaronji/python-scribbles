@@ -1,0 +1,7 @@
+.open SP500.db
+.headers on
+.mode csv
+.output Export/stocks.csv
+SELECT * 
+from stock;
+.exit

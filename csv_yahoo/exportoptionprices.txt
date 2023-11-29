@@ -1,0 +1,7 @@
+.open SP500O.db
+.headers on
+.mode csv
+.output Export/optionprices.csv
+SELECT code,duration,maturitydate,open,adjclose,high,low,volume,vwap
+from price;
+.exit
